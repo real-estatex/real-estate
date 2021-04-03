@@ -1,0 +1,29 @@
+html,
+body,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("./1.jpg");
+  background-color: #f3f3f3;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+.main {
+  width: 80%;
+  text-align: center;
+  padding: 50px;
+  border-radius: 20px;
+  color: #000000;
+  background-color: #35587e77;
+  font-size: 1.8em;
+  line-height: 1.5;
+}
